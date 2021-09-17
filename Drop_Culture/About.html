@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Drop Culture BKK</title>
+<link rel="shortcut icon" type="image/x-icon" href="UtilityPics/Icon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="FullNav.css">
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body style="background-color: white;">
+
+<!--Header-->
+<header>
+    <div class="LogoBar">
+        <center><a href = "file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Home.html">
+            <img src="UtilityPics/logo2.jpg" style="width: 40%;"></a></center>
+    </div>
+
+    <!--Full screen menu-->
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <hr style="color: white;width: 22%;margin: auto;">
+            <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Home.html">Home</a>
+            <hr style="color: white;width: 22%;margin: auto;">
+            <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Sneakers.html">Sneakers</a>
+            <hr style="color: white;width: 22%;margin: auto;">
+            <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Clothing.html">Clothing</a>
+            <hr style="color: white;width: 22%;margin: auto;">
+            <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Accessories.html">Accessories</a>
+            <hr style="color: white;width: 22%;margin: auto;">
+            <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html">About</a>
+            <hr style="color: white;width: 22%;margin: auto;">
+        </div>
+    </div>
+
+    <div class="topnav" id="header">
+        <div class="headerContact">
+            <a target="_blank" href="https://www.instagram.com/drop_culture.bkk/"><img src="UtilityPics/InstagramLogo.jpg" height="32px"></a>
+            <a target="_blank" href="https://www.facebook.com/DropCultureBKK/"><img src="UtilityPics/FacebookLogo.jpg" height="32px"></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UC0TezLLl7CiE7PkuIs5UbLQ"><img src="UtilityPics/YoutubeLogo.jpg" height="32px"></a>
+        </div>
+        <span style="font-size:30px;cursor:pointer;color:white; float: right;" onclick="openNav()">&#9776; </span>
+        <div class="search-container">
+            <form action="/action_page.php">
+            <input type="text" placeholder="Search products..." name="search">
+            <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.height = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.height = "0%";
+            }
+        </script>
+
+        <script>
+            // When the user scrolls the page, execute myFunction
+            window.onscroll = function() {myFunction()};
+
+            // Get the header
+            var header = document.getElementById("header");
+
+            // Get the offset position of the navbar
+            var sticky = header.offsetTop;
+
+            // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+            }
+        </script>
+
+    </div>
+
+    <div class="navbar1">
+        <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Home.html">Home</a> 
+        <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Sneakers.html">Sneakers</a> 
+        <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Clothing.html">Clothing</a> 
+        <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Accessories.html">Accessories</a>
+        <a class="active" href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html">About</a>
+    </div>
+
+</header>
+
+<!--Content-->
+<div class="Image">
+    <img src="UtilityPics/KicksBack2.png" style="width: 100%;margin: 0;padding:0;">
+</div>
+
+<section>
+    <div>
+        <h1>About</h1>
+        <h2>About us</h2>
+        <p>Sneaker and Streetwear resell store based in Thailand.</p>
+        <h2>How to order</h2>
+        <ol type="1">
+            <li>Select sneaker or streetwear you would like to purchase</li>
+            <li>DM to us on Instagram or Facebook</li>
+            <li>Enter payment and shipping details</li>
+        </ol>
+        <h2>Payment</h2>
+        <p>At the moment we only offer Bank Transfer. DM to us on Instagram or Facebook for more details.</p>
+    </div>
+    <div>
+        <h1>Contact</h1>
+        <a target="_blank" href="https://www.instagram.com/drop_culture.bkk/"><p><img src="UtilityPics/InstagramLogo.jpg" style="float ;width: 24px; height: 24px;"> Instagram</p></a>
+        <a target="_blank" href="https://www.facebook.com/drop_culturebkk-110463650626040/"><p><img src="UtilityPics/FacebookLogo.jpg" style="float ;width: 21px; height: 21px;"> Facebook</p></a>
+        <a target="_blank" href="#"><p><img src="UtilityPics/YoutubeLogo.jpg" style="float ;width: 21px; height: 21px;"> Youtube</p></a>
+    </div>
+</section>
+
+<hr>
+<!--Footers-->
+<footer>
+    <table>
+        <tr>
+            <td>
+                <div class="FooterContent">
+                    <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html"><h1>About</h1></a>
+                    <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html"><p>About us</p></a>
+                    <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html"><p>How to order</p></a>
+                    <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html"><p>Payment</p></a>
+                    <br>
+                </div>
+            </td>
+            <td>
+                <div class="FooterContent">
+                    <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html"><h1>Contact us</h1></a>
+                    <a target="_blank" href="https://www.instagram.com/drop_culture.bkk/"><p>Instagram</p></a>
+                    <a target="_blank" href="https://www.facebook.com/DropCultureBKK/"><p>Facebook</p></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UC0TezLLl7CiE7PkuIs5UbLQ"><p>Youtube</p></a>
+                    <br>
+                </div>
+            </td>
+        </tr>
+    </table>
+</footer>
+
+</body>
+</html>

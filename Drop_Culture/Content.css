@@ -1,0 +1,171 @@
+.SneakerDeals{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+
+.SneakerDeals a{
+    color: black;
+    text-decoration: none;
+}
+
+.ClothingDeals{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+
+.ClothingDeals a{
+    color: black;
+    text-decoration: none;
+}
+
+.AccessoriesDeals{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+
+.AccessoriesDeals a{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* Gallery style */
+div.gallery {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div.desc {
+    padding: 5px;
+}
+
+.desc p{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ItemPrice{
+    color: grey;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ItemName p{
+    padding: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.size{
+    display: inline-block;
+}
+
+.size span{
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    background-color: lightgray;
+    margin: 5px 2px;
+    border-radius: 4px;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 1025px){
+    .SneakerDeals{
+        width: 100%;
+    }
+    .ClothingDeals{
+        width: 100%;
+    }
+    .AccessoriesDeals{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 822px) {
+    .ItemName p{
+        font-size: 15px;
+    }
+    hr{
+        background-color: black;
+        width: 100%;
+        height: 0.1px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+    .gallery {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    h1{
+        margin-left: 50px;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+hr{
+    background-color: black;
+    width: 100%;
+    height: 0.1px;
+}

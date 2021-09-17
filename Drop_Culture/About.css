@@ -1,0 +1,37 @@
+section h1{
+    font-size: 40px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+section h2{
+    padding: 5px;
+    margin-left: 5px;
+}
+
+section p{
+    padding: 5px;
+    margin-left: 5px;
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+section a:hover{
+    color: red;
+}
+
+section{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+@media only screen and (max-width: 1025px){
+    section{
+        width: 97.5%;
+    }
+}

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Drop Culture BKK</title>
+<link rel="shortcut icon" type="image/x-icon" href="UtilityPics/Icon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="FullNav.css">
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="Content.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body style="background-color: white;">
+
+<!--Header-->
+<header>
+    <div class="LogoBar">
+        <center><a href = "file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Home.html">
+            <img src="UtilityPics/logo2.jpg" style="width: 40%;"></a></center>
+    </div>
+
+    <!--Full screen menu-->
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <hr style="color: white;width: 22%;margin: auto;">
+            <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Home.html">Home</a>
+            <hr style="color: white;width: 22%;margin: auto;">
+            <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Sneakers.html">Sneakers</a>
+            <hr style="color: white;width: 22%;margin: auto;">
+            <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Clothing.html">Clothing</a>
+            <hr style="color: white;width: 22%;margin: auto;">
+            <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Accessories.html">Accessories</a>
+            <hr style="color: white;width: 22%;margin: auto;">
+            <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html">About</a>
+            <hr style="color: white;width: 22%;margin: auto;">
+        </div>
+    </div>
+
+    <div class="topnav" id="header">
+        <div class="headerContact">
+            <a target="_blank" href="https://www.instagram.com/drop_culture.bkk/"><img src="UtilityPics/InstagramLogo.jpg" height="32px"></a>
+            <a target="_blank" href="https://www.facebook.com/DropCultureBKK/"><img src="UtilityPics/FacebookLogo.jpg" height="32px"></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UC0TezLLl7CiE7PkuIs5UbLQ"><img src="UtilityPics/YoutubeLogo.jpg" height="32px"></a>
+        </div>
+        <span style="font-size:30px;cursor:pointer;color:white; float: right;" onclick="openNav()">&#9776; </span>
+        <div class="search-container">
+            <form action="/action_page.php">
+            <input type="text" placeholder="Search products..." name="search">
+            <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.height = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.height = "0%";
+            }
+        </script>
+
+        <script>
+            // When the user scrolls the page, execute myFunction
+            window.onscroll = function() {myFunction()};
+
+            // Get the header
+            var header = document.getElementById("header");
+
+            // Get the offset position of the navbar
+            var sticky = header.offsetTop;
+
+            // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+            }
+        </script>
+
+    </div>
+
+    <div class="navbar1">
+        <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Home.html">Home</a> 
+        <a class="active" href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Sneakers.html">Sneakers</a> 
+        <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Clothing.html">Clothing</a> 
+        <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/Accessories.html">Accessories</a>
+        <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html">About</a>
+    </div>
+
+</header>
+
+<!--Content-->
+<div class="Image">
+    <img src="UtilityPics/KicksBack2.png" style="width: 100%;margin: 0;padding:0;">
+</div>
+
+<div class="SneakerDeals">
+  <h1>Sneakers</h1>
+  <!--OW AM97 OG-->
+  <div class="responsive">
+    <div class="gallery">
+            <a href="file:///C:/Users/User/Documents/Projects/Drop-Culture-Website/Drop_Culture/AM97OG.html">
+                <img src="ShoePics/AM97OG1.jpg" alt=""  width="400">
+            </a>
+        <div class="desc">
+            <a href="file:///C:/Users/User/Documents/Projects/Drop-Culture-Website/Drop_Culture/AM97OG.html">
+            <div class="ItemName">
+                <p>Nike Air Max 97</p>
+                <p>Off-White</p>
+            </div></a>
+            <div class="size">
+                <span>10</span>
+            </div>
+            <div class="ItemPrice">16500 thb</div>
+            <p style="color: green;">Available</p>
+            </div>
+        </div>
+    </div>
+  <!--Menta-->
+  <div class="responsive">
+      <div class="gallery">
+          <a href="#">
+              <img src="ShoePics/Menta1.jpg" alt="" height="600" width="400">
+          </a>
+          <div class="desc">
+              <div class="ItemName">
+                  <p>Nike Air Max 97</p>
+                  <p>Off-White Menta</p>
+              </div>
+              <div class="size">
+                  <span>9.5</span>
+              </div>
+              <div class="ItemPrice">19990 thb</div>
+              <p style="color: green;">Available</p>
+          </div>
+      </div>
+  </div>
+  <!--Hu Orange-->
+  <div class="responsive">
+      <div class="gallery">
+          <a href="#">
+              <img src="ShoePics/HuTangerine1.jpg" alt="" height="600" width="400">
+          </a>
+          <div class="desc">
+              <div class="ItemName">
+                  <p>Adidas NMD</p>
+                  <p>HU Race Tangerine</p>
+              </div>
+              <div class="size">
+                  <span>5.5</span>
+              </div>
+              <div class="ItemPrice">7990 thb</div>
+              <p style="color: green;">Available</p>
+          </div>
+      </div>
+  </div>
+  <!--OW Dunk-->
+  <div class="responsive">
+      <div class="gallery">
+          <a href="#">
+              <img src="ShoePics/OWDunkY1.jpg" alt="" height="600" width="400">
+          </a>
+          <div class="desc">
+              <div class="ItemName">
+                  <p>Nike Dunk Low</p>
+                  <p>Off-White Michigan</p>
+              </div>
+              <div class="size">
+                  <span>7</span>
+              </div>
+              <div class="ItemPrice">12600 thb</div>
+              <p style="color: red;">Sold</p>
+          </div>
+      </div>
+  </div>
+  <!--AJ1 Travis low-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/AJ1TravisLow1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Jordan 1 Low</p>
+                <p>Travis Scott</p>
+            </div>
+            <div class="size">
+                <span>12</span>
+            </div>
+            <div class="ItemPrice">22900 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+  <!--AF1 Travis-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/AF1Trav1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Nike Air Force 1 Low</p>
+                <p>Travis Scott</p>
+            </div>
+            <div class="size">
+                <span>5.5</span>
+            </div>
+            <div class="ItemPrice">16000 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+  <!--Hu Oreo-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/HuOreo1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Adidas NMD</p>
+                <p>HU Race Oreo</p>
+            </div>
+            <div class="size">
+                <span>8</span>
+            </div>
+            <div class="ItemPrice">7500 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+  <!--Hu Holi-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/HuHoli1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Adidas NMD</p>
+                <p>HU Race Holi</p>
+            </div>
+            <div class="size">
+                <span>8</span>
+            </div>
+            <div class="ItemPrice">6500 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+  <!--Hu Nude-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/HuNude1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Adidas NMD</p>
+                <p>HU Race Nude</p>
+            </div>
+            <div class="size">
+                <span>8</span>
+            </div>
+            <div class="ItemPrice">6250 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+  <!--NMD NBH-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/NMDNH1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Adidas NMD R1</p>
+                <p>Neighborhood Black</p>
+            </div>
+            <div class="size">
+                <span>9.5</span>
+            </div>
+            <div class="ItemPrice">6500 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+  <!--YZY Red-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/YeezyRed1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Yeezy 350 V2</p>
+                <p>Core Black Red</p>
+            </div>
+            <div class="size">
+                <span>10.5</span>
+            </div>
+            <div class="ItemPrice">17500 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+  <!--AJ1 H2H-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/AJ1H2H1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Jordan 1 High</p>
+                <p>Homage to Home</p>
+            </div>
+            <div class="size">
+                <span>11.5</span>
+            </div>
+            <div class="ItemPrice">11500 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+  <!--AF1 GDrag-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/AF1GDrag1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Nike Air Force 1 Low</p>
+                <p>G-Dragon</p>
+            </div>
+            <div class="size">
+                <span>7.5</span>
+            </div>
+            <div class="ItemPrice">15000 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+  <!--OW AF1 Black-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/OWAF1Black1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Nike Air Force 1 Low</p>
+                <p>Off-white Black</p>
+            </div>
+            <div class="size">
+                <span>10</span>
+            </div>
+            <div class="ItemPrice">25990 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+  <!--OW AF1 Volt-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/OWAF1Volt1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Nike Air Force 1 Low</p>
+                <p>Off-white Volt</p>
+            </div>
+            <div class="size">
+                <span>9.5</span>
+            </div>
+            <div class="ItemPrice">28490 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+  <!--OW Blazer-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/OWBlazerBlack1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Nike Blazer Mid</p>
+                <p>Off-white Black</p>
+            </div>
+            <div class="size">
+                <span>10</span>
+            </div>
+            <div class="ItemPrice">14000 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+  <!--AJ1 Mid Suns-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/AJ1Mid1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Jordan 1 Mid</p>
+                <p>"Pheonix Suns"</p>
+            </div>
+            <div class="size">
+                <span>7</span>
+            </div>
+            <div class="ItemPrice">2990 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+  <!--OW AF1 Volt-->
+  <div class="responsive">
+    <div class="gallery">
+        <a href="#">
+            <img src="ShoePics/NathanBell1.jpg" alt="" height="600" width="400">
+        </a>
+        <div class="desc">
+            <div class="ItemName">
+                <p>Nike Zoom Fly</p>
+                <p>Nathan Bell</p>
+            </div>
+            <div class="size">
+                <span>10</span>
+            </div>
+            <div class="ItemPrice">4990 thb</div>
+            <p style="color: red;">Sold</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+<!--Footers-->
+<footer>
+    <table>
+        <tr>
+            <td>
+                <div class="FooterContent">
+                    <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html"><h1>About</h1></a>
+                    <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html"><p>About us</p></a>
+                    <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html"><p>How to order</p></a>
+                    <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html"><p>Payment</p></a>
+                    <br>
+                </div>
+            </td>
+            <td>
+                <div class="FooterContent">
+                    <a href="file:///Users/poomkijoran/Documents/Projects/Drop-Culture-Website/Drop_Culture/About.html"><h1>Contact us</h1></a>
+                    <a target="_blank" href="https://www.instagram.com/drop_culture.bkk/"><p>Instagram</p></a>
+                    <a target="_blank" href="https://www.facebook.com/DropCultureBKK/"><p>Facebook</p></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UC0TezLLl7CiE7PkuIs5UbLQ"><p>Youtube</p></a>
+                    <br>
+                </div>
+            </td>
+        </tr>
+    </table>
+</footer>
+
+</body>
+</html> 

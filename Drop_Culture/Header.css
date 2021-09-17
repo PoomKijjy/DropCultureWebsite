@@ -1,0 +1,142 @@
+.LogoBar{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*{margin: 0;}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav .search-container {
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: grey;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: lightgray;
+}
+
+@media screen and (max-width: 480px) {
+.topnav .search-container {
+    float: none;
+    margin-top: 5px;
+}
+.topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+}
+.topnav input[type=text] {
+    border: 1px solid #ccc;  
+}
+.topnav a{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+}
+
+.topnav span{
+    margin-top: 0px;
+}
+
+* {box-sizing: border-box;}
+
+.navbar1 {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+}
+
+.navbar1 a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 20%;
+    text-align: center;
+    /* border: solid white 1px;
+    border-collapse: collapse; */
+}
+
+.navbar1 a:hover {
+    background-color: darkgray;
+}
+
+.navbar1 .active{
+    background-color: gray;
+}
+
+@media screen and (max-width: 750px) {
+    .navbar1 a {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .LogoBar img{
+        width: 40%;
+    }
+}
+
+.topnav .headerContact{
+    float: left;
+}
+
+.topnav .headerContact a img{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+hr{
+    background-color: white;
+    color: white;
+    height: 0.5px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
